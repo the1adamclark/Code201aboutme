@@ -1,0 +1,55 @@
+*{
+    outline :dashed;
+    border: 1px solid rebeccapurlple !importnat;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+
+
+
+.inline-p{
+    display: inline-block;
+}
+
+
+#empty-div{
+    width: 100px;
+    height: 100px;
+    backround-color: turquise;
+
+}
+
+#para-div{
+    width: 90%;
+    height: 90%;
+    backround-color: antiquewhite;
+    
+}
+
+#overflow-box{
+    max-height: 150px;
+    overflow: hidden;
+    overflow: scroll;
+
+}
+
+
+#foooter-box{
+    padding: 20px;
+    border: 5px dashed orange !important;
+    margin: 5px 10px 20px 5px;
+    //margin: 25px; this will put an even 25px all the way around
+
+}
+
+body {
+    margin: 0 auto;
+    width: 1200px;
+    backround-color: 
+    margin: 25px 0px 25px 0px;
+}
+
+main {
+    backround-color: turquise;
+}
