@@ -7,10 +7,10 @@ body {
     margin: 0 auto;
     width: 1000px;
                      /*    red  green blue  opacity */
-    background-color: rgba(27,  71,  218,  .5);
+    background-color: silver
 }
 main {
-    background-color: rgb(213, 245, 166);
+    background-color: lime;
 }
 header {
     margin-bottom: 10px;
@@ -18,24 +18,24 @@ header {
 ul li {
     display: inline;
     padding: 10px;
-    background-color: rgb(85,136,212);
+    background-color: white;
     border-radius: 15px;
 }
 ol li {
     display: inline;
     padding: 10px;
-    background-color: rgb(85,136,212);
+    background-color: rgb(55,136,212);
     border-radius: 15px;
 }
 h1 {
-    background-color: hotpink;
-    color: #f50efd;
+    background-color: Lime;
+    color: GhostWhite;
     font-size: 50px;
-    text-shadow:2px 2px ivory;
-    margin-bottom: 20px;
+    text-shadow:2px 2px LightSlateGray;
+    margin-bottom: 40px;
 }
 nav {
-    background-color: rgb(44,94,141);
+    background-color: black;
     height: 250px;
 }
 section p.more-styles {
