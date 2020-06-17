@@ -50,3 +50,67 @@ if(answer ==='no' || answer === 'n'){
     alert('popcorn is gross!, you get no points')
     console.log('this is the user point totoal',userPoints);
 }
+// this is for todays lab ^^^^^
+
+//loops will run intil a condition is truthy, or not truthy
+//while
+// while(condition){
+//     //something has to change
+    
+// }
+// var i =0;
+// while (i< value){
+//     i++;
+//     //i += 1;
+//     //i - i + 1
+// }
+// do {code runs here first then the condition is checked} while(condition); 
+
+// for(setUp  condition  change variable){
+//     //add code here to do stuff
+// }
+
+for(var i =0; i < 10; i++){
+    if(i===2){
+        console.log('keep going past this number 2');
+        continue;
+    }
+    if (i=== 4){
+        console.log('this is going ti break us out of the loop');
+        break;
+    }
+    console.log('the variable i: ', i);
+}
+
+// review of arrays
+
+var foodsIlike = ["tatertos", "chips", "popcorn", "kale"];
+console.log(foodsIlike);
+
+// use loops to travers through an array
+
+for (var x = 0; x < foodsIlike.length; x++) {
+  console.log('is doing work', foodsIlike[x]);
+}
+
+//lots of different methods
+foodsIlike.push('swiss chard');
+console.log('array push' , foodsIlike);
+
+//pop - removes elements off the array
+
+popArrayElement = foodsIlike.pop();
+console.log('array pop' , popArrayElement);
+
+console.log('array after the pop():', foodsIlike);
+
+//unshift array to remove from the front
+var shiftArray = foodsIlike.shift();
+console.log('unshift of array first element', shiftArray);
+console.log
+//shift array - removes elements from the front of the array
+
+
+//yes js lets you do this (have an array of different data types). dont do it
+var mixedUpArray - ['yehaw', 42, true, ['yo'], {}];
+// dont do it
