@@ -12,15 +12,15 @@ alert('Hello ' + userName);
 
 //this is where my magic starts
 //first question
-var food = prompt('Do I eat a vegetarian diet');
+var food = prompt('Do I have a strict plant based diet');
 console.log(food);
 
 //second question
-var married = prompt('I am married with 5 kids');
+var married = prompt('how many times have I been married');
 console.log(married);
 
 //third question
-var coach = prompt('I am a youth coach');
+var coach = prompt('Do I coach youth sports for a worldwide organization? ');
 console.log(coach);
 
 //fourth question
@@ -28,7 +28,7 @@ var lip = prompt('I dont have a bottom lip');
 console.log(lip);
 
 //fifth 
-var uwork = prompt('I have had a job for over 30 years');
+var uwork = prompt('Would you believe I have been in the workforce for over 30 years?');
 console.log(job);
 
 //convert the input to lowerCase
