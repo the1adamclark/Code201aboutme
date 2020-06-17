@@ -27,7 +27,7 @@ console.log(coach);
 var lip = prompt('I dont have a bottom lip');
 console.log(lip);
 
-//fifth question
+//fifth 
 var uwork = prompt('I have had a job for over 30 years');
 console.log(job);
 
