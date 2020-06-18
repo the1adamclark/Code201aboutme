@@ -66,30 +66,40 @@ console.log(lowerCasecoach);
 //Validate the input using conditional logic using strict equals.
 if(lowerCasecoach === 'yes' || 'yep' || 'you betcha') {
    alert('I sure do, I often coach as many as 80 kids per year between the ages of 6 and 20 yrs old. I recently added shotgun coach to my resume too!');
-} else if (lowerCasecoach !=== 'yes' || 'yep' || 'you betcha') {
-  alert('guess again shooter');
-} else {
+  } else {
       alert('Sorry, missed it again, I am actually certified in 4 different shooting sport orgs');
-
 }
 
 //fourth question
-var lip = prompt('I dont have a bottom lip');
+var lip = prompt('I accidentally cut off my bottom lip when I was 3 years old - True or False?');
 console.log(lip);
 
+//convert the input to lowerCase
+var lowerCaselip = lip.toLowerCase();
+console.log(lowerCaselip);
+
+//Validate the input using conditional logic using strict equals.
+if(lowerCaselip === "false"){
+    alert('actually I did in a motorcycle accident. My grandma told my mom to just throw it away instead of having is sewn back on');
+  } else if (lowerCaselip === "true"){
+    alert('OMG! can you really tell through Zoom?');
+  } else {
+    alert("stop staring and answer the questions please!!!");
+}
+
 //fifth 
-var uwork = prompt('Would you believe I have been in the workforce for over 30 years?');
+var work = prompt('Would you believe I have been in the workforce for over 30 years?');
 console.log(job);
 
 //convert the input to lowerCase
-var lowerCaseName = userName.toLowerCase();
-console.log(lowerCaseName);
+var lowerCasework = work.toLowerCase();
+console.log(lowerCasework);
 
 //Validate the input using conditional logic using strict equals.
-if(lowerCaseName === 'craig' || lowerCaseName === 'bob') {
-  alert('Welcom back to my page, ' + userName);
+if(lowerCaseName === 'yes' || lowerCaseName === 'yep' || 'yeah') {
+  alert('WOW!!!! Apparently I look really old to you');
 } else {
-  alert('Welcome new user to my page.');
+  alert('Not quite 30, I started working a tax paying payroll job at 12 for my family business. So I am only at 28 years of service');
 }
 
 
