@@ -89,14 +89,14 @@ if(lowerCaselip === "false"){
 
 //fifth 
 var work = prompt('Would you believe I have been in the workforce for over 30 years?');
-console.log(job);
+console.log(work);
 
 //convert the input to lowerCase
 var lowerCasework = work.toLowerCase();
 console.log(lowerCasework);
 
 //Validate the input using conditional logic using strict equals.
-if(lowerCaseName === 'yes' || lowerCaseName === 'yep' || 'yeah') {
+if(lowerCasework === 'yes' || lowerCasework === 'yep' || 'yeah') {
   alert('WOW!!!! Apparently I look really old to you');
 } else {
   alert('Not quite 30, I started working a tax paying payroll job at 12 for my family business. So I am only at 28 years of service');
@@ -108,73 +108,73 @@ if(lowerCaseName === 'yes' || lowerCaseName === 'yep' || 'yeah') {
 // var anotherBooleenValueFalse = false;
 // var thirdBooleenValueTrue = true;
 //else if
-var myBooleenValueTrue = true;
-var anotherBooleenValueFalse = false;
-var thirdBooleenValueTrue = false;
-//next else if
-// var myBooleenValueTrue = false;
-// var anotherBooleenValueFalse = false;
-// var thirdBooleenValueTrue = true;
-//else
-// var myBooleenValueTrue = false;
+// var myBooleenValueTrue = true;
 // var anotherBooleenValueFalse = false;
 // var thirdBooleenValueTrue = false;
+// //next else if
+// // var myBooleenValueTrue = false;
+// // var anotherBooleenValueFalse = false;
+// // var thirdBooleenValueTrue = true;
+// //else
+// // var myBooleenValueTrue = false;
+// // var anotherBooleenValueFalse = false;
+// // var thirdBooleenValueTrue = false;
 
-if (myBooleenValueTrue && thirdBooleenValueTrue){
-  alert('The && will run if both are true');
-  console.log('both values were true');
-} else if(myBooleenValueTrue || anotherBooleenValueFalse){
-  alert('The || will run if both are true');
-  console.log('one of values was true');
-} else if(thirdBooleenValueTrue){
-  alert('the 3rd value was tru so this will run');
-  console.log('thirdBooleenValueTrue was true');
-} else {
-  console.log('There were no true values');
-}
-
-
-// //create an empty array
-// var emptyArray = [];
-// //Create an array full of "quiz answers" by putting the answers into the array
-// //                 0   1   2   3   4
-// var quizAnswer = ['b','c','d','a','c'];
-
-// //nested array
-// var nestedArray = [['yes', 'y'], ['no', 'n'],['maybe', 'maybeNot']];
-
-// //multiline
-// var nestedArrayMultiLine  = [
-//   ['yes', 'y'],
-//   ['no', 'n'],
-//   ['maybe', 'maybeNot']
-// ];
-
-// // we don't always have to commit to a specific data type
-// var mixedDataTypes = ['Harry', 'Potter', 10, true, 'magic'];
+// if (myBooleenValueTrue && thirdBooleenValueTrue){
+//   alert('The && will run if both are true');
+//   console.log('both values were true');
+// } else if(myBooleenValueTrue || anotherBooleenValueFalse){
+//   alert('The || will run if both are true');
+//   console.log('one of values was true');
+// } else if(thirdBooleenValueTrue){
+//   alert('the 3rd value was tru so this will run');
+//   console.log('thirdBooleenValueTrue was true');
+// } else {
+//   console.log('There were no true values');
+// }
 
 
-// Create an About Me guessing game that utilizes HTML, CSS, & JavaScript.
+// // //create an empty array
+// // var emptyArray = [];
+// // //Create an array full of "quiz answers" by putting the answers into the array
+// // //                 0   1   2   3   4
+// // var quizAnswer = ['b','c','d','a','c'];
 
-// Include on your HTML page a short biography, your education history, an overview of your job experience, and any goals that you may have.
+// // //nested array
+// // var nestedArray = [['yes', 'y'], ['no', 'n'],['maybe', 'maybeNot']];
 
-// Prompt the user a total of exactly five yes or no questions. The user input for the answer must accept either y/n or yes/no responses while taking into consideration case sensitivity by normalizing the user input so that it can be validated (hint: look into the .toUpperCase() or .toLowerCase() functions). Be sure to let the user know if they answered the question correctly by alerting them with a response.
+// // //multiline
+// // var nestedArrayMultiLine  = [
+// //   ['yes', 'y'],
+// //   ['no', 'n'],
+// //   ['maybe', 'maybeNot']
+// // ];
 
-// Add console.log() messages within your app to notify the user if they are correct. Before submitting, comment out (don’t delete) your console.log() messages and replace them with the alerts() to complete the project.
+// // // we don't always have to commit to a specific data type
+// // var mixedDataTypes = ['Harry', 'Potter', 10, true, 'magic'];
 
-// As a user, I would like a personalized welcome message so that I feel like I am interacting with the site owner.
 
-// Ask the user their name through a prompt()
+// // Create an About Me guessing game that utilizes HTML, CSS, & JavaScript.
 
-// Display that name back to the user through a custom greeting welcoming them to your site.
+// // Include on your HTML page a short biography, your education history, an overview of your job experience, and any goals that you may have.
 
-// Display the user’s name back to them in your final message to the user.
+// // Prompt the user a total of exactly five yes or no questions. The user input for the answer must accept either y/n or yes/no responses while taking into consideration case sensitivity by normalizing the user input so that it can be validated (hint: look into the .toUpperCase() or .toLowerCase() functions). Be sure to let the user know if they answered the question correctly by alerting them with a response.
 
-// Developer Style Guide
-// A style guide is a series of standards and practices that must be followed in order for your code to be accepted by the team. This can include variable naming, file structure, and process. Below is a list of practices that you will be required to follow within this lab:
+// // Add console.log() messages within your app to notify the user if they are correct. Before submitting, comment out (don’t delete) your console.log() messages and replace them with the alerts() to complete the project.
 
-// Your JS file must contain a 'use strict' declaration at the top, and your javascript file must be linked in your html file as an external script file.
+// // As a user, I would like a personalized welcome message so that I feel like I am interacting with the site owner.
 
-// Make sure that all code is cleanly written with correct indentation and syntax. Look at examples online and in your textbook. Note that your JS must pass the rules in the linter that we installed.
+// // Ask the user their name through a prompt()
 
-// Follow the Add, Commit, Push process. It should be evident in GitHub that commits are made regularly, and with good commit messages that explain the WHY of the commit.
+// // Display that name back to the user through a custom greeting welcoming them to your site.
+
+// // Display the user’s name back to them in your final message to the user.
+
+// // Developer Style Guide
+// // A style guide is a series of standards and practices that must be followed in order for your code to be accepted by the team. This can include variable naming, file structure, and process. Below is a list of practices that you will be required to follow within this lab:
+
+// // Your JS file must contain a 'use strict' declaration at the top, and your javascript file must be linked in your html file as an external script file.
+
+// // Make sure that all code is cleanly written with correct indentation and syntax. Look at examples online and in your textbook. Note that your JS must pass the rules in the linter that we installed.
+
+// // Follow the Add, Commit, Push process. It should be evident in GitHub that commits are made regularly, and with good commit messages that explain the WHY of the commit.
