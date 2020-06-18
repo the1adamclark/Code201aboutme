@@ -124,7 +124,44 @@ for(var i =0; i < 10; i++){
       break;
   }
     console.log('the variable i: ', i);
+
+    userPoints = userPoints + 1;
+    userPoints += 1;
+    console.log('This is the user point total', userPoints);
+  
 }
+
+//seventh question
+
+var dreamPlaces = ['Ireland, Alaska, Iasle of Man, Canada, Siberia, Antarctica, Mariana Trench, Outer Space, Australia, Japan ' ];
+// placesILike.push('rome');
+// console.log(placesILike);
+var dreamPlaces = 6;
+while (dreamPlaces > 0) {
+  console.log('Inside while loop');
+  alert(userName + ' guess what place I want to visit first');
+  var guess = prompt('Ireland, Alaska, Iasle of Man, Canada, Siberia, Antarctica, Mariana Trench, Outer Space, Australia, Japan');
+  var match = false;
+  for (var i = 0; i < dreamPlaces.length; i++) {
+    if (guess === dreamPlaces[i]) {
+      alert('Correct, I would love to throw a pint or two of Guiness down with the boys at the pub in Dublin');
+      match === true;
+      break;
+    } else {
+      console.log('incorrect answer', dreamPlaces[i]);
+      
+    }
+  }
+  if (match === false) {
+    alert('No, Even though I would love to, thats not number 1');
+    break;
+  } else {
+    alert('Try again.');
+  }
+  console.log('array push', dreamPlaces);
+  dreamPlaces--;
+}
+
 
 // //check user input to add points for the game
 // if(answer ==='no' || answer === 'n'){
