@@ -128,6 +128,17 @@ for(var i =0; i < 10; i++){
   console.log('the variable i: ', i);
 }
 
+// //check user input to add points for the game
+// if(answer ==='no' || answer === 'n'){
+//   alert('you were right, i dont like popcorn.');
+//   //userPoints = userPoints +1;
+//   userpoints +=1;
+
+// }else{
+//   alert('popcorn is gross!, you get no points')
+//   console.log('this is the user point totoal',userPoints);
+// }
+
 // //convert the input to lowerCase
 // var lowerCasework = work.toLowerCase();
 // console.log(lowerCasework);
