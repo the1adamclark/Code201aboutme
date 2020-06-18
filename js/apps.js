@@ -41,12 +41,37 @@ if(lowerCasefood === 'yes') {
 
 
 //second question
-var married = prompt('how many times have I been married');
+var married = prompt('Am I married?');
 console.log(married);
 
+//convert the input to lowerCase
+var lowerCasemarried = married.toLowerCase();
+console.log(lowerCasemarried);
+
+//Validate the input using conditional logic using strict equals.
+if(lowerCasemarried === 'no' || 'nope' || 'not sure') {
+   alert('that is correct, but this one has the best chance so far!!!');
+} else {
+  alert('I know, hard to believe I am not, right!..but ask me again sometime soon!');
+}
+
 //third question
-var coach = prompt('Do I coach youth sports for a worldwide organization? ');
+var coach = prompt('I currently coach youth Archery for a worldwide organization? ');
 console.log(coach);
+
+//convert the input to lowerCase
+var lowerCasecoach = coach.toLowerCase();
+console.log(lowerCasecoach);
+
+//Validate the input using conditional logic using strict equals.
+if(lowerCasecoach === 'yes' || 'yep' || 'you betcha') {
+   alert('I sure do, I often coach as many as 80 kids per year between the ages of 6 and 20 yrs old. I recently added shotgun coach to my resume too!');
+} else if (lowerCasecoach !=== 'yes' || 'yep' || 'you betcha') {
+  alert('guess again shooter');
+} else {
+      alert('Sorry, missed it again, I am actually certified in 4 different shooting sport orgs');
+
+}
 
 //fourth question
 var lip = prompt('I dont have a bottom lip');
