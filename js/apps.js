@@ -111,6 +111,34 @@ if(lowerCasework === 'yes' || lowerCasework === 'yep' || 'yeah') {
   alert('Not quite 30, I started working a tax paying payroll job at 12 for my family business. So I am only at 28 years of service');
 }
 
+//sixth question
+var numGuess = prompt('I am thinking of a number between 1 and 10, I will give you 4 tries to guess it');
+console.log(numGuess);
+
+var numGuess = i; 
+for(var i =0; i < 10; i++){
+  if(i===4){
+      console.log('WAY TO GO!!!! #NAILEDIT!');
+      continue;
+  }
+  if (i=== 4){
+      console.log('this is going ti break us out of the loop');
+      break;
+  }
+  console.log('the variable i: ', i);
+}
+
+// //convert the input to lowerCase
+// var lowerCasework = work.toLowerCase();
+// console.log(lowerCasework);
+
+//Validate the input using conditional logic using strict equals.
+// if(lowerCasework === 'yes' || lowerCasework === 'yep' || 'yeah') {
+//   alert('WOW!!!! Apparently I look really old to you');
+// } else {
+//   alert('Not quite 30, I started working a tax paying payroll job at 12 for my family business. So I am only at 28 years of service');
+// }
+
 
 // logical operator example
 // var myBooleenValueTrue = true;
@@ -193,12 +221,12 @@ if(lowerCasework === 'yes' || lowerCasework === 'yep' || 'yeah') {
 // lab03 extend your guessing game
 
 // 1. Create a “Top Ten” at the bottom of your HTML page as an ordered list in HTML. 
-//     Some ideas that you can include could be top ten movies, top ten favorite places, or top ten places to visit. 
-//     You may choose to do whatever top ten list that you wish.
-//     Convert your work experience and education summary into an unordered list using HTML
+//  x   Some ideas that you can include could be top ten movies, top ten favorite places, or top ten places to visit. 
+//  x   You may choose to do whatever top ten list that you wish.
+//  x  Convert your work experience and education summary into an unordered list using HTML
 
 //2.Add a 6th question to the guessing game that takes in a numeric input by prompting the user to guess a number.
-//    Indicates through an alert if the guess is “too high” or “too low”.
+//  x  Indicates through an alert if the guess is “too high” or “too low”.
 //    It should give the user exactly four opportunities to get the correct answer.
 //    After all attempts have been exhausted, tell the user the correct answer. Consider using a loop of some sort.
 
