@@ -2,6 +2,15 @@
 //first thing to do
 console.log('This file is connected.');
 
+//global variables
+var userPoints = 0;
+
+alert('Hello and welcome to the guessing game.');
+
+var user = prompt('what is your name?');
+var userName = user.toLowerCase();
+console.log(userName);
+
 
 //prompt our user for input data
 var userName = prompt('What is my name?');
