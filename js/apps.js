@@ -117,15 +117,13 @@ console.log(numGuess);
 
 var numGuess = i; 
 for(var i =0; i < 10; i++){
-  if(i===4){
-      console.log('WAY TO GO!!!! #NAILEDIT!');
-      continue;
-  }
-  if (i=== 4){
-      console.log('this is going ti break us out of the loop');
+  if(i !== 4){
+      console.log('nope, keep guessing');
+    } else {
+      console.log('WAY TO GO YOU NAILED IT');
       break;
   }
-  console.log('the variable i: ', i);
+    console.log('the variable i: ', i);
 }
 
 // //check user input to add points for the game
