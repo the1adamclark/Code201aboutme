@@ -31,38 +31,60 @@ if(lowerCaseName === 'craig' || lowerCaseName === 'bob') {
 }
 
 
-//this is where my magic starts
-//first question
-var food = prompt('Do I have a strict plant based diet? Please answer yes or no');
-console.log(food);
+// var lowerCasefood = food.toLowerCase();
+var food = (function() { 
+  prompt('Do I have a strict plant based diet? Please answer yes or no');
+  console.log(food);
+  
+  //convert the input to lowerCase
+  // var lowerCasefood = food.toLowerCase();
+  //console.log(lowerCasefood);
+  
+  //Validate the input using conditional logic using strict equals.
+  if(food === 'yes') {
+     alert('sorry, this guy is a meat eater!!!');
+  } else {
+    alert('That is correct!! I have been exclusively I.F. Carnivore since January 2020! I will take my steak with a side of steak');
+  }
+  //return alert;
+}())
 
-//convert the input to lowerCase
-var lowerCasefood = food.toLowerCase();
-console.log(lowerCasefood);
 
-//Validate the input using conditional logic using strict equals.
-if(lowerCasefood === 'yes') {
-   alert('sorry, this guy is a meat eater!!!');
-} else {
-  alert('That is correct!! I have been exclusively I.F. Carnivore since January 2020! I will take my steak with a side of steak');
-}
+// //second question
+// var married = prompt('Am I married?');
+// console.log(married);
+
+// //convert the input to lowerCase
+// var lowerCasemarried = married.toLowerCase();
+// console.log(lowerCasemarried);
+
+// //Validate the input using conditional logic using strict equals.
+// if(lowerCasemarried === 'no' || 'nope' || 'not sure') {
+//    alert('that is correct, but this one has the best chance so far!!!');
+// } else {
+//   alert('I know, hard to believe I am not, right!..but ask me again sometime soon!');
+// }
 
 
+//second question as a function
 
-//second question
+function amImarried()
 var married = prompt('Am I married?');
 console.log(married);
 
 //convert the input to lowerCase
-var lowerCasemarried = married.toLowerCase();
-console.log(lowerCasemarried);
+// var lowerCasemarried = married.toLowerCase();
+// console.log(lowerCasemarried);
 
 //Validate the input using conditional logic using strict equals.
-if(lowerCasemarried === 'no' || 'nope' || 'not sure') {
+if(married === 'no' || 'nope' || 'not sure') {
    alert('that is correct, but this one has the best chance so far!!!');
 } else {
   alert('I know, hard to believe I am not, right!..but ask me again sometime soon!');
+  return amImarried
 }
+
+
 
 //third question
 var coach = prompt('I currently coach youth Archery for a worldwide organization? ');

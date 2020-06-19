@@ -112,5 +112,5 @@ console.log
 
 
 //yes js lets you do this (have an array of different data types). dont do it
-var mixedUpArray - ['yehaw', 42, true, ['yo'], {}];
+//var mixedUpArray - ['yehaw', 42, true, ['yo'], {}];
 // dont do it
