@@ -68,40 +68,77 @@ var food = (function() {
 
 //second question as a function
 
-function amImarried()
-var married = prompt('Am I married?');
-console.log(married);
+//function amImarried(){
 
-//convert the input to lowerCase
-// var lowerCasemarried = married.toLowerCase();
-// console.log(lowerCasemarried);
+function amImarried(){
+  var married = prompt('Am I married?');
+  console.log(married);
 
-//Validate the input using conditional logic using strict equals.
-if(married === 'no' || 'nope' || 'not sure') {
+  //convert the input to lowerCase
+  var lowerCasemarried = married.toLowerCase();
+  console.log(lowerCasemarried);
+
+  //Validate the input using conditional logic using strict equals.
+  if(lowerCasemarried === 'no' || 'nope' || 'not sure') {
    alert('that is correct, but this one has the best chance so far!!!');
-} else {
+  } else {
   alert('I know, hard to believe I am not, right!..but ask me again sometime soon!');
-  return amImarried
 }
+amImarried();
 
 
+// //third question
+// var coach = prompt('I currently coach youth Archery for a worldwide organization? ');
+// console.log(coach);
 
-//third question
-var coach = prompt('I currently coach youth Archery for a worldwide organization? ');
-console.log(coach);
+// //convert the input to lowerCase
+// var lowerCasecoach = coach.toLowerCase();
+// console.log(lowerCasecoach);
 
-//convert the input to lowerCase
-var lowerCasecoach = coach.toLowerCase();
-console.log(lowerCasecoach);
+// //Validate the input using conditional logic using strict equals.
+// if(lowerCasecoach === 'yes' || 'yep' || 'you betcha') {
+//    alert('I sure do, I often coach as many as 80 kids per year between the ages of 6 and 20 yrs old. I recently added shotgun coach to my resume too!');
+//   } else {
+//       alert('Sorry, missed it again, I am actually certified in 4 different shooting sport orgs');
+// }
 
-//Validate the input using conditional logic using strict equals.
-if(lowerCasecoach === 'yes' || 'yep' || 'you betcha') {
+
+//third question as a function
+
+function archery(){
+  var coach = prompt('I currently coach youth Archery for a worldwide organization? ');
+  console.log(coach);
+
+  //convert the input to lowerCase
+  var lowerCasecoach = coach.toLowerCase();
+  console.log(lowerCasecoach);
+
+  //Validate the input using conditional logic using strict equals.
+  if(lowerCasecoach === 'yes' || 'yep' || 'you betcha') {
    alert('I sure do, I often coach as many as 80 kids per year between the ages of 6 and 20 yrs old. I recently added shotgun coach to my resume too!');
   } else {
       alert('Sorry, missed it again, I am actually certified in 4 different shooting sport orgs');
 }
+archery();
 
-//fourth question
+// //fourth question
+// var lip = prompt('I accidentally cut off my bottom lip when I was 3 years old - True or False?');
+// console.log(lip);
+
+// //convert the input to lowerCase
+// var lowerCaselip = lip.toLowerCase();
+// console.log(lowerCaselip);
+
+// //Validate the input using conditional logic using strict equals.
+// if(lowerCaselip === "false"){
+//     alert('actually I did in a motorcycle accident. My grandma told my mom to just throw it away instead of having is sewn back on');
+//   } else if (lowerCaselip === "true"){
+//     alert('OMG! can you really tell through Zoom?');
+//   } else {
+//     alert("stop staring and answer the questions please!!!");
+// }
+
+//fourth question as a function
 var lip = prompt('I accidentally cut off my bottom lip when I was 3 years old - True or False?');
 console.log(lip);
 
@@ -118,7 +155,24 @@ if(lowerCaselip === "false"){
     alert("stop staring and answer the questions please!!!");
 }
 
-//fifth 
+
+// //fifth 
+// var work = prompt('Would you believe I have been in the workforce for over 30 years?');
+// console.log(work);
+
+// //convert the input to lowerCase
+// var lowerCasework = work.toLowerCase();
+// console.log(lowerCasework);
+
+// //Validate the input using conditional logic using strict equals.
+// if(lowerCasework === 'yes' || lowerCasework === 'yep' || 'yeah') {
+//   alert('WOW!!!! Apparently I look really old to you');
+// } else {
+//   alert('Not quite 30, I started working a tax paying payroll job at 12 for my family business. So I am only at 28 years of service');
+// }
+
+
+//fifth question as a function
 var work = prompt('Would you believe I have been in the workforce for over 30 years?');
 console.log(work);
 
@@ -133,7 +187,28 @@ if(lowerCasework === 'yes' || lowerCasework === 'yep' || 'yeah') {
   alert('Not quite 30, I started working a tax paying payroll job at 12 for my family business. So I am only at 28 years of service');
 }
 
-//sixth question
+// //sixth question
+// var numGuess = prompt('I am thinking of a number between 1 and 10, I will give you 4 tries to guess it');
+// console.log(numGuess);
+
+// var numGuess = i; 
+// for(var i =0; i < 10; i++){
+//   if(i !== 4){
+//       console.log('nope, keep guessing');
+//     } else {
+//       console.log('WAY TO GO YOU NAILED IT');
+//       break;
+//   }
+//     console.log('the variable i: ', i);
+
+//     userPoints = userPoints + 1;
+//     userPoints += 1;
+//     console.log('This is the user point total', userPoints);
+  
+// }
+
+
+//sixth question as a function
 var numGuess = prompt('I am thinking of a number between 1 and 10, I will give you 4 tries to guess it');
 console.log(numGuess);
 
@@ -305,4 +380,5 @@ while (dreamPlaces > 0) {
 //    Consider using a loop of some sort for this question.
 
 //4.Keep track of the total number of correct answers. 
-//At the end tell them how many they got correct out of the 7 questions asked.
+//At the end tell them how many they got correct out of the 7 questions asked
+}
