@@ -139,22 +139,23 @@ archery();
 // }
 
 //fourth question as a function
-var lip = prompt('I accidentally cut off my bottom lip when I was 3 years old - True or False?');
-console.log(lip);
 
-//convert the input to lowerCase
-var lowerCaselip = lip.toLowerCase();
-console.log(lowerCaselip);
+var alert = (function();
+  var lip = prompt('I accidentally cut off my bottom lip when I was 3 years old - True or False?');
+  console.log(lip);
 
-//Validate the input using conditional logic using strict equals.
-if(lowerCaselip === "false"){
-    alert('actually I did in a motorcycle accident. My grandma told my mom to just throw it away instead of having is sewn back on');
-  } else if (lowerCaselip === "true"){
-    alert('OMG! can you really tell through Zoom?');
-  } else {
-    alert("stop staring and answer the questions please!!!");
-}
+  //convert the input to lowerCase
+  var lowerCaselip = lip.toLowerCase();
+  console.log(lowerCaselip);
 
+  //Validate the input using conditional logic using strict equals.
+  if(lowerCaselip === "false"){
+      alert('actually I did in a motorcycle accident. My grandma told my mom to just throw it away instead of having is sewn back on')
+    } else if (lowerCaselip === "true"){
+      alert('OMG! can you really tell through Zoom?')
+    } else {
+      alert("stop staring and answer the questions please!!!")
+}());
 
 // //fifth 
 // var work = prompt('Would you believe I have been in the workforce for over 30 years?');
